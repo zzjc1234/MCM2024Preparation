@@ -17,7 +17,6 @@
   - writing
     - [vscode latex](https://github.com/sanjib-sen/WebLaTex)
 
-
 ## Modeling
 
 - Read the book
