@@ -1,8 +1,9 @@
 # Modeling
 
 ## learning roadmap
-- mathmatical modelling overview
-  - [intro to mathmatical modeling](https://ubcmath.github.io/MATH360/process/overview.html)
+
+- mathematical modeling overview
+  - [intro to mathematical modeling](https://ubcmath.github.io/MATH360/process/overview.html)
 - data science overview
   - mainly [UCBds100](https://ds100.org/fa23/)
 - Statistics basic
