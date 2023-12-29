@@ -15,7 +15,11 @@
     - [hiplot](https://hiplot.cn/)
     - [plotly](https://plotly.com/python/)
   - writing
-    - [vscode latex](https://github.com/sanjib-sen/WebLaTex)
+    - [vscode latex](https://github.com/sanjib-sen/WebLaTex) (instead of overleaf)
+  - modeling&coding tool kits
+    - [pycaret](https://pycaret.org/) (an easy-to-use py lib for ML, similar to sklearn)
+    - [Python Programming And Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
+    - [mathematical python](https://patrickwalls.github.io/mathematicalpython/)
 
 ## Modeling
 
