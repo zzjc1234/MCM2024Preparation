@@ -49,9 +49,10 @@
 
 - Modeling
   - Finish the book before MCM
-  - Read one problem of MCM and try to
-    - Write a brief idea about the model
-    - Try to find some data for problem
+  - Get familiar with the general process and different models
+  - Read problems of MCM and try to
+    - Write a brief idea about the models
+    - Try to find some data for the problems
     - Compare the model and data with the winner's
 - Coding
   - Review for numpy, pandas and sklearn
