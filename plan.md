@@ -41,3 +41,23 @@
 - [ ] Register for MCM
 - [ ] Decide the problem to prepare
 - [ ] Mock session
+
+## Routine
+
+- Modeling
+  - Finish the book before MCM
+  - Read one problem of MCM and try to
+    - Write a brief idea about the model
+    - Try to find some data for problem
+    - Compare the model and data with the winner's
+- Coding
+  - Review for numpy, pandas and sklearn
+  - Finish sklearn and math principle behind the model
+  - Finish offical tutorial of matplotlib or seaborn
+  - Finish a kaggle contest per week
+  - Read the one problem of MCM and try to fork the visualization part
+- Paper
+  - Learn Latex and prepare template for contest
+  - Read the previous paper and summarize their advantages
+  - Try to find data
+  - Learn to produce the poster
