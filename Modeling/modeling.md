@@ -14,9 +14,10 @@
 - DL basic
 
 ## hands-on problems
+- [ ] 23 B
 
 ### Review
-- [ ] 23 A
+- [x] 23 A
 - [ ] 23 B
 
 ### DIY
