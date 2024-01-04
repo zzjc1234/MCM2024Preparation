@@ -14,6 +14,7 @@
     - [rawgraph](https://github.com/rawgraphs)
     - [hiplot](https://hiplot.cn/)
     - [plotly](https://plotly.com/python/)
+    - [flourish](https://help.flourish.studio/)
   - writing
     - [vscode latex](https://github.com/sanjib-sen/WebLaTex) (instead of overleaf)
   - modeling&coding tool kits
