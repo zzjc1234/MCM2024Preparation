@@ -29,6 +29,12 @@
   - [`scipy.integrate.solve_ivp`](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter22.06-Python-ODE-Solvers.html)
   - [`scipy.integrate.solve_bvp`](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter23.05-Python-ODE-Solvers.html)
 
+- How to use `scipy` to solve IVP
+  1. Judge whether one dimension, first order
+  2. For higher order problem, convert to multi-dimension problem
+  3. Solve one dimension problem or multi-dimension problem
+  4. Plot the result
+
 ### Nondimensionalization
 
 - **dimension** of a [physical quantity](https://en.wikipedia.org/wiki/International_System_of_Quantities) refers to its expression in terms of the _base quantities_, such as time, length, mass and temperature.
