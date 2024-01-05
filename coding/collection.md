@@ -27,6 +27,32 @@ Description: Plan for model collection.
 
 - AHP
 
+## Classification
+
+### Supervised
+
+- svm
+- sgd
+- knn
+- naivebyes
+- discriminant analysis
+- tree
+
+### Unsupervised
+
+- kmeans
+- linkage
+- gmm
+- manifold
+
+## Regression
+
+- liner
+- logistic
+- tree
+- svm
+- gaussian process regression
+
 ## Misc
 
 - PIE
