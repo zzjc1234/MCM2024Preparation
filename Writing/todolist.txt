@@ -1,0 +1,9 @@
+#todo
+
+[] 准备latex template
+[] 仿写/改写练手
+[] 准备data.md
+[] 准备一版页边距页头页尾小的排版，内容多的时候用
+[] 准备latex syntax.tex
+	[] 无序列表，有序列表
+[x] 准备色盘
