@@ -14,12 +14,15 @@
     - [rawgraph](https://github.com/rawgraphs)
     - [hiplot](https://hiplot.cn/)
     - [plotly](https://plotly.com/python/)
+    - [flourish](https://help.flourish.studio/)
   - writing
     - [vscode latex](https://github.com/sanjib-sen/WebLaTex) (instead of overleaf)
   - modeling&coding tool kits
     - [pycaret](https://pycaret.org/) (an easy-to-use py lib for ML, similar to sklearn)
     - [Python Programming And Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
     - [mathematical python](https://patrickwalls.github.io/mathematicalpython/)
+  - data manipulation
+    - [wandb](https://colab.research.google.com/github/wandb/examples/blob/master/colabs/intro/Intro_to_Weights_&_Biases.ipynb)
 
 ## Modeling
 
