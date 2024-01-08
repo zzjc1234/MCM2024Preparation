@@ -18,7 +18,6 @@ However, there exists some wild assumptions.
 - Shannon-Wiener and Simpson Index
 - White noise
 - PIE
-- WPZ HSZ LGZ
 - Simulation
 
 Currently no idea about how they simulate the future trend.
