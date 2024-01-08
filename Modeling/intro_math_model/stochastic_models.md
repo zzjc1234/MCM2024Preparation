@@ -1,6 +1,7 @@
 # Stochastic Models
 
 ## Overview
+
 - Stochastic Models
   - Definition: **Predictive** models for **random** phenomena
   - Characteristics
@@ -21,6 +22,7 @@
 ## Probability Distributions
 
 ### Variables and Densities
+
 - **Random Variables**
   - Definition: Numerical representation of outcomes from random events
   - Types
@@ -43,13 +45,15 @@
   - sample variance
     - _biased_
       - $\hat{\sigma}^2 = \frac{1}{N} \sum_{i=1}^N (x_i - \hat{\mu})^2$
-    - **unbiased** (better, especially for small samples [why](https://math.stackexchange.com/questions/496627/the-difference-between-unbiased-biased-estimator-variance)) 
+    - **unbiased** (better, especially for small samples [why](https://math.stackexchange.com/questions/496627/the-difference-between-unbiased-biased-estimator-variance))
       - $\hat{\sigma}^2 = \frac{1}{N - 1} \sum_{i=1}^N (x_i - \hat{\mu})^2$
 
 ### Common Distributions
 
 #### Discrete Distributions [see more](https://appliedmath.arizona.edu/sites/default/files/0f04d86a836182cbf608dfc86c7a70f5e5f6_0.pdf#%5B%7B%22num%22%3A143%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D)
+
 TODO:
+
 - **Bernoulli Distribution**
 - **Binomial Distribution**
 - **Geometric and Negative Binomial Distribution**
@@ -57,6 +61,7 @@ TODO:
 - **The Multinomial Distribution**
 
 #### Continuous Distributions [see more](https://appliedmath.arizona.edu/sites/default/files/0f04d86a836182cbf608dfc86c7a70f5e5f6_0.pdf#%5B%7B%22num%22%3A179%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D)
+
 - **Normal Distribution**
   - $f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-(x - \mu)^2/2\sigma^2}$
   - _The Lognormal Distribution_: the natural logarithm of a nonnegative random variable $V$ is normally distributed
@@ -73,14 +78,17 @@ TODO:
 - **The Joint Normal Distribution**
 
 ### Random Sampling
+
 - Scipy
-  -  [`scipy.stats`](http://scipy-lectures.org/packages/statistics/index.html)
+  - [`scipy.stats`](http://scipy-lectures.org/packages/statistics/index.html)
 
 ### Kernel Density Estimation
+
 - [wikipedia](https://en.wikipedia.org/wiki/Kernel_density_estimation)
 - [ubcmath](https://ubcmath.github.io/MATH360/stochastic/kernel.html)
 
 ## Examples
+
 - [Stochastic Models, Statistics and Their Applications](https://link.springer.com/book/10.1007/978-3-319-13881-7)
   - professional and detailed
   - specific applications

@@ -14,13 +14,16 @@
 - DL basic
 
 ## hands-on problems
+
 - [ ] 23 B
 
 ### Review
+
 - [x] 23 A
 - [ ] 23 B
 
 ### DIY
+
 - [ ] sample
 
 ## ToC
