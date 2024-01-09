@@ -92,4 +92,3 @@ TODO:
 - [Stochastic Models, Statistics and Their Applications](https://link.springer.com/book/10.1007/978-3-319-13881-7)
   - professional and detailed
   - specific applications
-
