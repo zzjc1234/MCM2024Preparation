@@ -2,17 +2,17 @@
 
 ## workflow
 - restate and classify the problem
-  - [deterministic models](Modeling/intro_math_model/deterministic_models.md)
-  - [stochastic models](Modeling/intro_math_model/stochastic_models.md)
+  - [deterministic models](intro_math_model/deterministic_models.md)
+  - [stochastic models](intro_math_model/stochastic_models.md)
 - evalute the missions and choice of models
   - predict
   - arrange/optimize
   - relativity
   - cluster/classify
-  - conprehensive analysis
+  - [Comprehensive Evaluation](mission-oriented/comprehensive_evaluation.md) (CE)
 - search for and refer to similar examples
   - for different subjects and background
-    - biology [\ref](Modeling/intersection/biology/materials.md)
+    - [biology](intersection/biology/materials.md)
 - search for and evaluate data
 - choice of practical methods and finding sample code
 - reflect to and adjust the model according to the results
