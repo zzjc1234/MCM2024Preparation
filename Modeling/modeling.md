@@ -1,5 +1,24 @@
 # Modeling
 
+## workflow
+- restate and classify the problem
+  - [deterministic models](Modeling/intro_math_model/deterministic_models.md)
+  - [stochastic models](Modeling/intro_math_model/stochastic_models.md)
+- evalute the missions and choice of models
+  - predict
+  - arrange/optimize
+  - relativity
+  - cluster/classify
+  - conprehensive analysis
+- search for and refer to similar examples
+  - for different subjects and background
+    - biology [\ref](Modeling/intersection/biology/materials.md)
+- search for and evaluate data
+- choice of practical methods and finding sample code
+- reflect to and adjust the model according to the results
+- analysis and evaluation of models (error etc)
+- etc
+
 ## learning roadmap
 
 - mathematical modeling overview
