@@ -14,11 +14,12 @@
 - DL basic
 
 ## hands-on problems
-- [ ] 23 B
+
 
 ### Review
 - [x] 23 A
-- [ ] 23 B
+- [x] 23 B
+- [ ] 23 E
 
 ### DIY
 - [ ] sample
