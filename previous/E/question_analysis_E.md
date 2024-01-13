@@ -1,4 +1,4 @@
-# Analysis for Problme E
+# Analysis for Problem E
 
 Author: Zhaojiacheng Zhou
 
