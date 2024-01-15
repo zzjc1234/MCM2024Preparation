@@ -54,6 +54,7 @@
 ### Common Distributions
 
 #### Discrete Distributions [see more](https://appliedmath.arizona.edu/sites/default/files/0f04d86a836182cbf608dfc86c7a70f5e5f6_0.pdf#%5B%7B%22num%22%3A143%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D)
+
 - **Bernoulli Distribution**
   - PMF: $P(X=k) = p^k(1-p)^{1-k}$ for $k \in \{0,1\}$
   - Mean: $\mu = p$
@@ -65,7 +66,7 @@
   - Variance: $\sigma^2 = np(1-p)$
 
 - **Geometric and Negative Binomial Distribution**
-  - Geometric 
+  - Geometric
     - PMF: $P(X=k) = (1-p)^{k-1}p$ for $k = 1, 2, 3, ...$
     - Mean: $\mu = \frac{1}{p}$
     - Variance: $\sigma^2 = \frac{1-p}{p^2}$
@@ -85,7 +86,6 @@
   - Variance: $\sigma_i^2 = np_i(1-p_i)$
   - Covariance: $\text{Cov}(X_i, X_j) = -np_ip_j$ for $i \neq j$
 
-
 #### Continuous Distributions [see more](https://appliedmath.arizona.edu/sites/default/files/0f04d86a836182cbf608dfc86c7a70f5e5f6_0.pdf#%5B%7B%22num%22%3A179%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D)
 
 - **Normal Distribution**
@@ -93,26 +93,29 @@
   - _The Lognormal Distribution_: the natural logarithm of a nonnegative random variable $V$ is normally distributed
 
 - **Uniform Distribution**
-  - PDF: $$f(x) = \begin{cases} 
-      \frac{1}{b-a} & , a \le x \le b \\
-      0 & , \text{otherwise} 
-    \end{cases}$$
+  - PDF:
+    $$f(x) = \begin{cases}
+        \frac{1}{b-a} & , a \le x \le b \\
+        0 & , \text{otherwise}
+      \end{cases}$$
   - Mean: $\mu = \frac{b+a}{2}$
   - Variance: $\sigma^2 = \frac{(b-a)^2}{12}$
 
 - **Exponential Distribution**
-  - PDF: $$f(x) = \begin{cases} 
-      \lambda e^{- \lambda x} & , x \ge 0 \\
-      0 & , x < 0 
-    \end{cases}$$
+  - PDF:
+    $$f(x) = \begin{cases}
+        \lambda e^{- \lambda x} & , x \ge 0 \\
+        0 & , x < 0
+      \end{cases}$$
   - Mean: $\mu = \frac{1}{\lambda}$
   - Variance: $\sigma^2 = \frac{1}{\lambda^2}$
 
 - **Gamma Distribution**
-  - PDF: $$f(x) = \begin{cases} 
-      \frac{\beta^{\alpha}}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x} & , x \ge 0 \\
-      0 & , x < 0 
-    \end{cases}$$
+  - PDF:
+    $$f(x) = \begin{cases}
+        \frac{\beta^{\alpha}}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x} & , x \ge 0 \\
+        0 & , x < 0
+      \end{cases}$$
   - Mean: $\mu = \frac{\alpha}{\beta}$
   - Variance: $\sigma^2 = \frac{\alpha}{\beta^2}$
 
@@ -125,34 +128,36 @@
   - PDF: $f(\mathbf{x}) = \frac{1}{\sqrt{(2\pi)^k|\Sigma|}} e^{-\frac{1}{2}(\mathbf{x}-\boldsymbol{\mu})^T\Sigma^{-1}(\mathbf{x}-\boldsymbol{\mu})}$
   - Here, $\mathbf{x}$ is a vector in $\mathbb{R}^k$, $\boldsymbol{\mu}$ is the mean vector, and $\Sigma$ is the covariance matrix.
 
-
 ##### Random Sampling
+
 - Scipy
   - [`scipy.stats`](http://scipy-lectures.org/packages/statistics/index.html)
 
 ##### Kernel Density Estimation
+
 - [wikipedia](https://en.wikipedia.org/wiki/Kernel_density_estimation)
 - [ubcmath](https://ubcmath.github.io/MATH360/stochastic/kernel.html)
 - [uw](https://faculty.washington.edu/yenchic/18W_425/Lec6_hist_KDE.pdf)
   
 Kernel Density Estimation (KDE) Overview
-  - **Density Estimation**
-    - Simple Estimation
-      - Plotting histograms of observed random samples
-  - **Kernel Functions**
-    - Functions \(K : \mathbb{R} \rightarrow \mathbb{R}\)
-    - Examples: Triangular, Rectangular, Gaussian, Parabolic kernels
-  - **Kernel Density Functions**
-    - Definition: \(\hat{f}_h(x) = \frac{1}{Nh} \sum \limits_{i=1}^N K \left( \frac{x - x_i}{h} \right)\)
-    - Estimate of \(f(x)\)
-    - Visualization: Impact of bandwidth on density estimation
-  - **KDE with SciPy**
-    - `scipy.stats.gaussian_kde` function
-      - Automates KDE computation with Gaussian kernel
-    - Bandwidth parameter
-      - Automatic or user-specified
-      - Influences density estimation
-    - Visualization
+
+- **Density Estimation**
+  - Simple Estimation
+    - Plotting histograms of observed random samples
+- **Kernel Functions**
+  - Functions \(K : \mathbb{R} \rightarrow \mathbb{R}\)
+  - Examples: Triangular, Rectangular, Gaussian, Parabolic kernels
+- **Kernel Density Functions**
+  - Definition: \(\hat{f}_h(x) = \frac{1}{Nh} \sum \limits_{i=1}^N K \left( \frac{x - x_i}{h} \right)\)
+  - Estimate of \(f(x)\)
+  - Visualization: Impact of bandwidth on density estimation
+- **KDE with SciPy**
+  - `scipy.stats.gaussian_kde` function
+    - Automates KDE computation with Gaussian kernel
+  - Bandwidth parameter
+    - Automatic or user-specified
+    - Influences density estimation
+  - Visualization
 
 ## Examples
 
