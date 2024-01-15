@@ -2,7 +2,10 @@
 
 import numpy as np
 
-def simulated_annealing(problem, initial_solution, initial_temperature, cooling_rate, max_iterations):
+
+def simulated_annealing(
+    problem, initial_solution, initial_temperature, cooling_rate, max_iterations
+):
     current_solution = initial_solution
     current_energy = problem.evaluate(current_solution)
 
@@ -12,11 +15,14 @@ def simulated_annealing(problem, initial_solution, initial_temperature, cooling_
         new_solution = problem.get_neighbor(current_solution)
         new_energy = problem.evaluate(new_solution)
 
-        if new_energy < current_energy or np.random.rand() < np.exp((current_energy - new_energy) / temperature):
+        if new_energy < current_energy or np.random.rand() < np.exp(
+            (current_energy - new_energy) / temperature
+        ):
             current_solution = new_solution
             current_energy = new_energy
 
     return current_solution, current_energy
+
 
 # 示例：旅行商问题
 class TSPProblem:
@@ -26,8 +32,12 @@ class TSPProblem:
     def evaluate(self, solution):
         total_distance = 0
         for i in range(len(solution) - 1):
-            total_distance += np.linalg.norm(self.cities[solution[i]] - self.cities[solution[i+1]])
-        total_distance += np.linalg.norm(self.cities[solution[-1]] - self.cities[solution[0]])
+            total_distance += np.linalg.norm(
+                self.cities[solution[i]] - self.cities[solution[i + 1]]
+            )
+        total_distance += np.linalg.norm(
+            self.cities[solution[-1]] - self.cities[solution[0]]
+        )
         return total_distance
 
     def get_neighbor(self, solution):
@@ -36,6 +46,7 @@ class TSPProblem:
         idx1, idx2 = np.random.choice(len(neighbor), size=2, replace=False)
         neighbor[idx1], neighbor[idx2] = neighbor[idx2], neighbor[idx1]
         return neighbor
+
 
 # 示例数据
 cities = np.array([[0, 0], [1, 2], [2, 4], [3, 1], [4, 3]])
@@ -50,7 +61,9 @@ max_iterations = 1000
 tsp_problem = TSPProblem(cities)
 
 # 运行模拟退火算法
-final_solution, final_energy = simulated_annealing(tsp_problem, initial_solution, initial_temperature, cooling_rate, max_iterations)
+final_solution, final_energy = simulated_annealing(
+    tsp_problem, initial_solution, initial_temperature, cooling_rate, max_iterations
+)
 
 print("最终解:", final_solution)
 print("最终能量 (总距离):", final_energy)
@@ -60,17 +73,20 @@ print("最终能量 (总距离):", final_energy)
 from scipy.optimize import minimize
 import numpy as np
 
+
 # 示例：最小化一个简单的目标函数
 def objective_function(x):
-    return x[0]**2 + x[1]**2
+    return x[0] ** 2 + x[1] ** 2
+
 
 # 初始解
 initial_solution = np.array([1.0, 2.0])
 
 # 调用scipy中的simulated_annealing函数
-result = minimize(objective_function, initial_solution, method='anneal', options={'maxiter': 1000})
+result = minimize(
+    objective_function, initial_solution, method="anneal", options={"maxiter": 1000}
+)
 
 # 输出结果
 print("最终解:", result.x)
 print("最终目标函数值:", result.fun)
-

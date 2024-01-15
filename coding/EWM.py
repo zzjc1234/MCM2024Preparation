@@ -2,6 +2,7 @@
 
 import numpy as np
 
+
 def entropy_weight(matrix):
     """
     计算熵权法的权重
@@ -26,16 +27,11 @@ def entropy_weight(matrix):
 
     return normalized_weights
 
+
 # 示例数据
-decision_matrix = np.array([
-    [3, 4, 2],
-    [5, 2, 1],
-    [1, 6, 4],
-    [2, 5, 3]
-])
+decision_matrix = np.array([[3, 4, 2], [5, 2, 1], [1, 6, 4], [2, 5, 3]])
 
 # 计算权重
 weights = entropy_weight(decision_matrix)
 
 print("熵权法计算的权重:", weights)
-
