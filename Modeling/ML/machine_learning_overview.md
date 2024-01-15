@@ -32,8 +32,8 @@ flowchart TD
     classDef deployStage fill:#dff,stroke:#333,stroke-width:2px;
 ```
 
-
 ### choice of Model
+
 [SAS cheatsheet](https://blogs.sas.com/content/subconsciousmusings/2020/12/09/machine-learning-algorithm-use/)
 [sklearn cheatsheet](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 [datacamp cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/email/other/ML+Cheat+Sheet_2.pdf)

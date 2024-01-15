@@ -1,6 +1,7 @@
 # Modeling
 
 ## workflow
+
 - restate and classify the problem
   - [deterministic models](intro_math_model/deterministic_models.md)
   - [stochastic models](intro_math_model/stochastic_models.md)
@@ -33,7 +34,6 @@
 - DL basic
 
 ## hands-on problems
-
 
 ### Review
 

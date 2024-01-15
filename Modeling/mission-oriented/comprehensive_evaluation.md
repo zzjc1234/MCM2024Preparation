@@ -1,16 +1,20 @@
 # Comprehensive Evaluation
+
 ![](https://picx.zhimg.com/80/v2-49852ba3fe5dd36d32800b729a5ca773_1440w.webp?source=1def8aca)
 
 [methods of CE](https://link.springer.com/chapter/10.1007/978-981-15-8582-1_20)
 
 ## Multi-Criteria Decision Analysis (MCDA)
+
 aka Multi-Criteria Decision-Making (MCDM)
+
 [1000minds](https://www.1000minds.com/decision-making/what-is-mcdm-mcda)
 https://openlibrary.org/works/OL8362416W/Multiple_criteria_decision_analysis
 
 ## Potentially All Pairwise RanKings of all possible Alternatives (PAPRIKA)
 
 ## VIKOR
+
 VIekriterijumsko KOmpromisno Rangiranje
 multi-criteria optimization and compromise solution
 [examples](https://www.sciencedirect.com/topics/computer-science/vikor)
@@ -24,6 +28,7 @@ topsis核心就是针对归一化矩阵，通过带权值的距离公式求解�
 ## Fuzzy Comprehension Evaluation Method (FCE)
 
 ## Projection Pursuit (PP)
+
 Three projection pursuit approaches are investigated, including principal component analysis (PCA), independent component analysis (ICA), and singular value decomposition (SVD)
 
 ### Principal Component Analysis (PCA)
