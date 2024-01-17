@@ -11,6 +11,7 @@
     - [keyword graph](https://keywords.groundedai.company/)
     - [AI review](https://txyz.ai/)
   - plotting
+    - [cheatsheet](https://www.kaggle.com/discussions/getting-started/160583)
     - [rawgraph](https://github.com/rawgraphs)
     - [hiplot](https://hiplot.cn/)
     - [plotly](https://plotly.com/python/)
@@ -21,6 +22,9 @@
     - [pycaret](https://pycaret.org/) (an easy-to-use py lib for ML, similar to sklearn)
     - [Python Programming And Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
     - [mathematical python](https://patrickwalls.github.io/mathematicalpython/)
+  - data mining
+    - [browse.ai](https://www.browse.ai/)
+    - [awesome public dataset](https://github.com/awesomedata/awesome-public-datasets)
   - data manipulation
     - [wandb](https://colab.research.google.com/github/wandb/examples/blob/master/colabs/intro/Intro_to_Weights_&_Biases.ipynb)
 
