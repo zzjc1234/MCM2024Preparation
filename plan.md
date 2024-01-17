@@ -48,8 +48,8 @@
 
 ## Todo
 
-- [ ] Register for MCM
-- [ ] Decide the problem to prepare
+- [x] Register for MCM
+- [x] Decide the problem to prepare
 - [ ] Mock session
 
 ## Routine
