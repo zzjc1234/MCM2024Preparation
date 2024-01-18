@@ -9,6 +9,7 @@
 aka Multi-Criteria Decision-Making (MCDM)
 
 [1000minds](https://www.1000minds.com/decision-making/what-is-mcdm-mcda)
+
 https://openlibrary.org/works/OL8362416W/Multiple_criteria_decision_analysis
 
 ## Potentially All Pairwise RanKings of all possible Alternatives (PAPRIKA)
@@ -52,6 +53,9 @@ Adversarial Interpretive Structure ModelingMethod (AISM)
 ## Data envelopment analysis (DEA)
 
 [auto formula](https://www.huaxuejia.cn/ism/CE-SAISM/vikor_aism.php)
+
 https://www.kdnuggets.com/2022/06/21-cheat-sheets-data-science-interviews.html
+
 https://www.researchgate.net/publication/30529921_Multi-Criteria_Analysis_A_Manual
+
 https://www.researchgate.net/publication/275960103_An_analysis_of_multi-criteria_decision_making_methods
