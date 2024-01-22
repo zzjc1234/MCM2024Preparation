@@ -1,0 +1,17 @@
+invention_apply    国内专利申请受理量(项)
+invention_granted    国内专利申请授权量(项)
+RD_fund	工业企业R&D经费(万元)
+ftime_equ_personnel    R&D人员全时当量(人年)
+patent    有效发明专利数(件)
+tech_market_turnover    技术市场成交额(亿元)
+undergraduate_enrollment    普通高等学校本科招生数(万人)
+ave_students_enrolled    每十万人口高等学校平均在校生数(人)
+edu_expense    教育经费(万元)
+tech_job    科学研究和技术服务业城镇单位就业人员(万人)
+tech_invest
+GDP
+new_product_fund    规模以上工业企业开发新产品经费(万元)
+new_product_sales_revenue    规模以上工业企业新产品销售收入(万元)
+RD_effec_patent 规模以上工业企业有效专利
+RD_apply_patent 规模以上工业企业专利申请
+sci_peo_num 科研人员数
