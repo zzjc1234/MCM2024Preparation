@@ -14,10 +14,9 @@ https://openlibrary.org/works/OL8362416W/Multiple_criteria_decision_analysis
 
 ## Potentially All Pairwise RanKings of all possible Alternatives (PAPRIKA)
 
-## VIKOR
+## multi-criteria optimization and compromise solution(VIKOR)
+VIekriterijumsko KOmpromisno Rangiranje(VIKOR)
 
-VIekriterijumsko KOmpromisno Rangiranje
-multi-criteria optimization and compromise solution
 [examples](https://www.sciencedirect.com/topics/computer-science/vikor)
 
 VIKOR核心就是针对归一化矩阵，通过带权值的范数为1(曼哈顿)与范数为无穷大(切比雪夫)闵可夫斯基距离求解出距离
@@ -27,6 +26,47 @@ VIKOR核心就是针对归一化矩阵，通过带权值的范数为1(曼哈顿)
 topsis核心就是针对归一化矩阵，通过带权值的距离公式求解出到正负理想点的距离
 
 ## Fuzzy Comprehension Evaluation Method (FCE)
+
+### **CORE** (TL;DR):
+- Converts **qualitative** evaluations to **quantitative** assessments
+- Handles **uncertain** and **subjective** data effectively
+
+### More
+- One-level Evaluation
+   - Define **factors $U$** and **evaluations $V$**
+   - Determine **factor weights $A$**
+     - $A=[a_1,a_2,...,a_n]$, and $\sum_{i=1}^na_i=1$
+     - commonly use _Delphi Method_, [AHP](#analytic-hierarchy-process-ahp) and [Entropy Weight Method](#entropy-weight-method-ewm)
+   - establish **judgment matrix $R$**
+     - $R=(r_{ij})_{n \times m}$ 
+   - Calculate final assessment with **fuzzy vector $B = A * R$**
+- **Multi-level Evaluation**
+   - Appropriate for **complex settings** with numerous factors
+   - Assign **weights at multiple levels** for detailed analysis
+- Comparison with Other Methods
+   - **Accuracy** ?
+      - FCE: Contextually high in complex systems
+      - Quantitative: Objective but less nuanced
+   - **Effectiveness**
+      - FCE: Manages uncertainty well
+      - Traditional: Perform poorly with ambiguity
+   - **Flexibility**
+      - FCE: Customizable for context
+      - Other Qualitative: Less detailed than FCE
+   - **Application Scope**
+      - FCE: Ideal for human-centric evaluations
+      - Other Methods: Depend on data nature and desired outcomes
+
+### Applications & Examples
+
+- FCE + Delphi
+  - [Group fuzzy comprehensive evaluation method under ignorance](https://www.sciencedirect.com/science/article/abs/pii/S0957417419301058)
+    - use basic probability assignment (BPA) to extract the expert's judgment information
+    - accommodates ignorance and uncertainty in assessments
+- FCE + AHP:
+  - [Analysis of ecological carrying capacity using a fuzzy comprehensive evaluation method](https://www.sciencedirect.com/science/article/abs/pii/S1470160X20301801)
+  - [Evaluating teaching performance based on fuzzy AHP and comprehensive evaluation approach](https://www.sciencedirect.com/science/article/abs/pii/S1568494614006152)
+  - [Fuzzy comprehensive evaluation method for energy management systems based on an internet of things](https://ieeexplore.ieee.org/abstract/document/8016341/)
 
 ## Projection Pursuit (PP)
 

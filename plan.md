@@ -8,6 +8,7 @@
   - [MCM SJTU LIB](https://anl.sjtu.edu.cn/mcm/docs/name/使用手册)
   - [MCM OFFICIAL](https://www.comap.com)
   - literature
+    - [research rabbit](https://www.researchrabbitapp.com/)
     - [keyword graph](https://keywords.groundedai.company/)
     - [AI review](https://txyz.ai/)
   - plotting
