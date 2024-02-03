@@ -1,6 +1,7 @@
 # Modeling
 
 ## workflow
+
 - restate and classify the problem
   - [deterministic models](intro_math_model/deterministic_models.md)
   - [stochastic models](intro_math_model/stochastic_models.md)
@@ -34,13 +35,14 @@
 
 ## hands-on problems
 
-
 ### Review
+
 - [x] 23 A
 - [x] 23 B
 - [ ] 23 E
 
 ### DIY
+
 - [ ] sample
 
 ## ToC
